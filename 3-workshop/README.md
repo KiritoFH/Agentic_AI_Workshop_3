@@ -14,4 +14,4 @@ uv run python main.py
 ```
 
 # Note
-Replace OPENAI_API_KEY with your own openai api key
+Replace OPENAI_API_KEY with your own openai api key in .env
