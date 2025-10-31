@@ -1,5 +1,5 @@
 """
-Tools module for Singapore Kopitiam project.
+Tools module for Singapore Wet Market project.
 """
 
 from .singapore_time import singapore_time

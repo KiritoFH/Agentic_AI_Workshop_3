@@ -58,12 +58,12 @@ def build_graph():
 
 
 def main():
-    print("=== SINGAPORE KOPITIAM CHATTER ===")
-    print("Chat with our kopitiam regulars! Type 'exit' to end.\n")
-    print("Setting: A bustling Singapore kopitiam on a typical afternoon...")
-    print("The regulars are here - Uncle Ah Seng at his drinks stall,")
-    print("Mei Qi with her phone, Bala checking football scores,")
-    print("and Dr. Tan sipping his kopi-o.\n")
+    print("=== SINGAPORE WET MARKET CHATTER ===")
+    print("Chat with our wet market regulars! Type 'exit' to end.\n")
+    print("Setting: A bustling Singapore wet market on a typical afternoon...")
+    print("The regulars are here - Uncle Ah Teng at his vegetable stall,")
+    print("Mei Lin with her phone, Kelly checking vegetable sales,")
+    print("and Dr. Kim sipping his kopi-o.\n")
 
     graph = build_graph()
 

@@ -1,5 +1,5 @@
 """
-Agents module for Singapore Kopitiam project.
+Agents module for Singapore Wet Market project.
 """
 
 from .coordinator import coordinator

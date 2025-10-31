@@ -66,10 +66,10 @@ def singapore_news() -> str:
         pass
 
     # Fallback news if RSS fetch fails
-    result += "1. Local kopitiam wins best kopi award\n"
-    result += "   Traditional coffee-making skills recognized nationally\n\n"
-    result += "2. New MRT line to connect heartlands\n"
-    result += "   Enhanced connectivity for residential areas\n\n"
-    result += "3. Singapore weather: Monsoon season expected\n"
-    result += "   Heavy rains forecasted for the coming weeks"
+    result += "1. Wet market vendors introduce new organic vegetables\n"
+    result += "   Farm-to-stall produce now available every morning\n\n"
+    result += "2. Weekend crowd sees surge at Chinatown Wet Market\n"
+    result += "   Shoppers queue early for fresh vegetables and seasonal fruits\n\n"
+    result += "3. Specialty herbs from Kampong Ubi market gain popularity\n"
+    result += "   Shoppers seeking rare herbs line up daily"
     return result

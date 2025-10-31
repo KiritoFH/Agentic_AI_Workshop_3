@@ -55,7 +55,7 @@ def participant_node(state: State) -> dict:
     """
     Participant node - calls the appropriate participant and handles output.
     """
-    next_speaker = state.get("next_speaker", "ah_seng")  # Default fallback
+    next_speaker = state.get("next_speaker", "ah_teng")  # Default fallback
 
     # Call participant with the selected speaker
     result = participant(next_speaker, state)
@@ -81,6 +81,6 @@ def summarizer_node(state: State) -> dict:
     # Generate and print summary
     summary = summarizer(state)
     print(summary)
-    print("\nThank you! Come back to kopitiam anytime lah!")
+    print("\nThank you! Come back to wet market anytime lah!")
 
     return {}  # Empty update to end

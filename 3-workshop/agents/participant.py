@@ -37,7 +37,7 @@ PERSONAS = {
         "backstory": "Retired philosophy professor, enjoys deep conversations over wet market history",
         "personality": "Thoughtful, philosophical, patient, loves teaching moments",
         "speech_style": "Proper English with minimal Singlish, thoughtful pauses, asks profound questions",
-        "tools": ["time", "weather", "news"]  # Dr. Tan has ALL tools
+        "tools": ["time", "weather", "news"]  # Dr. Kim has ALL tools
     }
 }
 
@@ -64,7 +64,7 @@ def participant(persona_id, state) -> dict:
     Generate speech for a persona using ReAct workflow with real tool calling.
 
     Args:
-        persona_id: One of "ah_seng", "mei_qi", "bala", "dr_tan"
+        persona_id: One of "ah_teng", "mei_lin", "kelly", "dr_kim"
         state: Current conversation state
 
     Returns:
@@ -100,7 +100,7 @@ Background: {persona['backstory']}
 Personality: {persona['personality']}
 Speech style: {persona['speech_style']}
 
-You are at a Singapore kopitiam having a casual conversation.
+You are at a Singapore wet market having a casual conversation.
 
 You run in a loop of Thought, Action, Observation.
 At the end of the loop you output a Message.
