@@ -6,36 +6,6 @@ The regulars are here - Uncle Ah Teng at his vegetable stall,
 Mei Lin with her phone, Kelly checking vegetable sales,
 and Dr. Kim sipping his kopi-o.
 
-Traceback (most recent call last):
-  File "c:\Users\siao_\OneDrive\Desktop\Agentic_AI_Workshop_3\3-workshop\main.py", line 88, in <module>
-    main()
-  File "c:\Users\siao_\OneDrive\Desktop\Agentic_AI_Workshop_3\3-workshop\main.py", line 70, in main
-    print(graph.get_graph().draw_ascii())
-  File "C:\Users\siao_\AppData\Local\Programs\Python\Python310\lib\site-packages\langchain_core\runnables\graph.py", line 517, in draw_ascii
-    return draw_ascii(
-  File "C:\Users\siao_\AppData\Local\Programs\Python\Python310\lib\site-packages\langchain_core\runnables\graph_ascii.py", line 295, in draw_ascii
-    sug = _build_sugiyama_layout(vertices, edges)
-  File "C:\Users\siao_\AppData\Local\Programs\Python\Python310\lib\site-packages\langchain_core\runnables\graph_ascii.py", line 202, in _build_sugiyama_layout
-    raise ImportError(msg)
-ImportError: Install grandalf to draw graphs: `pip install grandalf`.
-PS C:\Users\siao_\OneDrive\Desktop\Agentic_AI_Workshop_3> pip install grandalf
-Collecting grandalf
-  Downloading grandalf-0.8-py3-none-any.whl.metadata (1.7 kB)
-Collecting pyparsing (from grandalf)
-  Downloading pyparsing-3.2.5-py3-none-any.whl.metadata (5.0 kB)
-Downloading grandalf-0.8-py3-none-any.whl (41 kB)
-Downloading pyparsing-3.2.5-py3-none-any.whl (113 kB)
-Installing collected packages: pyparsing, grandalf
-Successfully installed grandalf-0.8 pyparsing-3.2.5                                                                                                                                                                                                                           
-PS C:\Users\siao_\OneDrive\Desktop\Agentic_AI_Workshop_3> & C:/Users/siao_/AppData/Local/Programs/Python/Python310/python.exe c:/Users/siao_/OneDrive/Desktop/Agentic_AI_Workshop_3/3-workshop/main.py
-=== SINGAPORE WET MARKET CHATTER ===
-Chat with our wet market regulars! Type 'exit' to end.
-
-Setting: A bustling Singapore wet market on a typical afternoon...
-The regulars are here - Uncle Ah Teng at his vegetable stall,
-Mei Lin with her phone, Kelly checking vegetable sales,
-and Dr. Kim sipping his kopi-o.
-
              +-----------+
              | __start__ |
              +-----------+
