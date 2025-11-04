@@ -1,5 +1,5 @@
 from langchain_openai import ChatOpenAI
-from langchain.schema import HumanMessage, SystemMessage
+from langchain_core.messages import HumanMessage, SystemMessage
 from utils import debug
 
 
@@ -38,7 +38,7 @@ def coordinator(state):
     Available speakers:
     - ah_teng: Uncle Ah Teng, 65yo kopi uncle, speaks Singlish, knows about vegetables and weather
     - mei_lin: Young 23yo content creator, social media savvy, knows latest news and trends
-    - kelly: Ex-statistician turned football tipster, dry humor, analytical
+    - kelly: Ex-statistician turned mother, dry humor, analytical
     - dr_kim: Retired 70yo philosophy professor, thoughtful and deep thinker
 
     Based on the conversation flow, select who should speak next to keep the conversation lively and natural.

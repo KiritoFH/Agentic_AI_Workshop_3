@@ -5,6 +5,7 @@
 This project demonstrates a multi-agent AI system simulating a vibrant Singapore wet market. 
 The system leverages agentic AI architecture to coordinate multiple agents with distinct personas and capabilities. 
 Each agent interacts, communicates, and collaborates to achieve a shared goal: simulating a lively wet market discussion while demonstrating tool usage and summarization.
+As my father owns a vegetable stall, wanted to find out if the AI knows what time is best to go wet market.
 
 ## Set up
 
